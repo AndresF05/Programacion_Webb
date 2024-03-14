@@ -358,3 +358,35 @@ html {
     }
 }
 /*SECCION PROYECTOS*/
+#portfolio{
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+#portfolio h3{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration-color:black;
+    text-decoration-thickness: 5px;
+    text-decoration: underline;
+}
+
+#portfolio .fila .proyecto{
+    max-width: 4000px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+.proyecto img{
+    width: 1200px;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+.proyecto:hover img{
+    filter: grayscale(0);
+}
+
