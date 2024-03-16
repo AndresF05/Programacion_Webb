@@ -41,13 +41,13 @@ html {
 }
 #inicio .contenido header .contenido-header nav ul li a{
     text-decoration: none;
-    color: chartreuse;
+    color:#fff;
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
 }
 #inicio .contenido header .contenido-header nav ul a:hover{
-    color: darkgreen;
+    color: rgb(0, 116, 124);
 }
 #inicio .contenido header .contenido-header .redes a{
     text-decoration: none;
@@ -81,8 +81,8 @@ html {
     text-align: center;
 }
 #inicio .contenido .presentacion h2 span{
-    font-size: 25px;
-    color: blueviolet;
+    font-size: 50px;
+    color: rgb(9, 0, 134);
 }
 #inicio .contenido .presentacion .descripcion{
     max-width: 700px;
@@ -101,9 +101,6 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
-}
-#inicio .contenido .presentacion a:hover{
-    background-color:darkgreen;
 }
 #icono-nav{
     color: #fff;
@@ -131,7 +128,7 @@ html {
     margin: 0 40px;
 }
 #sobremi .sobremi .titulo-seccion{
-    font-size: 22px;
+    font-size: 26px;
     text-transform: uppercase;
     color: black;
     text-decoration: underline;
@@ -139,7 +136,7 @@ html {
     text-decoration-thickness: 5px;
 }
 #sobremi .sobremi h2{
-    font-size: 34px;
+    font-size: 27px;
     font-weight: bold;
     margin: 20px 0;
     letter-spacing: 2px;
@@ -148,7 +145,7 @@ html {
     color: blueviolet;
 }
 #sobremi .sobremi h3{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -157,13 +154,13 @@ html {
 #sobremi .sobremi p{
     font-size: 14px;
     line-height: 25px;
-    color: brown;
+    color: rgb(0, 0, 0);
     margin-bottom: 12px;
 }
 #sobremi .sobremi p1{
     font-size: 14px;
     line-height: 25px;
-    color:blue;
+    color:rgb(0, 0, 0);
     margin-bottom: 12px;
 }
 #sobremi .sobremi a{
